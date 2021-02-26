@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>TO DO | Task Manager</title>
+</head>
+<body>
+    
+    <section>
+        <div class="container">
+            
+            <div class="main-content"> 
+                
+                <!-- To Do App Section -->
+                <div class="card">
+                    
+                    <!-- Title and Input Section -->
+                    <div class="card-content">
+                        <span class="card-title">TO-DO Task Manager</span>
+                        <form id="task-form">
+                            <div class="task-title">New Task</div>
+                            <div class="input-field">
+                                <input type="text" id="task" placeholder="Add New Task">
+                            </div>
+                            <input type="submit" value="ADD TASK" class="btn">
+                        </form>
+                    </div>
+            
+                    <!-- Filter and Tasks Section -->
+                    <div class="card-action">
+                        <div class="task-title">Tasks</div>
+                        <div class="input-field">
+                            <input type="text" name="task" id="filter" placeholder="Filter Tasks">
+                        </div>
+                        <ul class="collection">
+                            <!-- <li class="collection-item">Task 1<a href="" class="delete-item"><i class="fa fa-remove"></i></a></li> -->
+                        </ul>
+                        <button class="clear-tasks btn">CLEAR TASKS</button>
+                        <!-- Footer -->
+                        <footer>
+                            Made with <span class="heart">❤</span> . Check Out <a href="https://github.com/krishnapatil1406/" target="_blank">Code Here</a>.
+                        </footer>
+                    </div>
+                </div>
+
+                <!-- Side Image Section -->
+                <div class="card-image">
+                    <img src="img/undrawTodo.svg" alt=""> 
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
